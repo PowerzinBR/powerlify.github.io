@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .player {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #searchInput {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0e8d3e;
+  }
+  
+  #results {
+    margin-top: 20px;
+  }
+  
+  #results div {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #results div:hover {
+    background-color: #f0f0f0;
+  }
+  
+  #audioPlayer {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
